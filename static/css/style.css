@@ -1,0 +1,40 @@
+/* 内容 */
+.item-list-group .item-list-top{
+    overflow: hidden;
+    padding: 34px;
+}
+.item-list-top .module-title{
+    float: left;
+    font-size: 30px;
+}
+.item-list-top .more-btn{
+    float: right;
+    font-size: 30px;
+}
+.list-group{
+    overflow: hidden;
+    padding: 0 34px;
+}
+.item-group{
+    float: left;
+    margin-right: 30px;
+}
+.item-group{
+    width: 30%;
+}
+.item-group .thumbanail{
+    display: block;
+    width: 100%;
+    height: 470px;
+}
+.item-group .item-title{
+    text-align: center;
+    font-size: 30px;
+}
+.item-group .item-rating{
+    text-align: center;
+    font-size: 30px;
+}
+.item-group .item-rating .score{
+    width: 30px;
+}

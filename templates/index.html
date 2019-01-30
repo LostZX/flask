@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+{% from "macrros.html" import listGroup,itemGroup %}
+{% block body %}
+    <div class="item-list-group">
+        {{ listGroup('电影',movies,1) }}
+        {{ listGroup('电视剧',tvs,2) }}
+    </div>
+{% endblock %}
